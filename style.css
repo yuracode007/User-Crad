@@ -1,34 +1,121 @@
-body{
+body {
+    font-family: Arial, Helvetica, sans-serif;
     display: flex;
     justify-content: center;
+    align-items: center;
+    height: 100vh;
     text-align: center;
+    background-color: darkcyan;
+    margin: 0;
 }
 
-.card {
-    width: 500px;
-    height: 400px;
-    border: 1px solid darkblue;
+.profile-card {
+    width: 400px;
+    height: auto; 
     border-radius: 10px;
-}
-.card-info {
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: hidden; 
 }
 
-.card-bookmark {
+.profile-location {
+    padding-top: 10px;
+    font-size: 14px;
+}
+
+.profile-bookmark {
     width: 10px;
     height: 10px;
 }
 
-.card-girl{
-    width: 120px; 
-    height: 120px;
+.profile-wraper-girl{
+    padding-top: 10px;
+}
+.profile-image {
+    width: 220px; 
+    height: 220px;
     border-radius: 50%; 
     border: 2px solid gray;
     padding: 3px;
-    box-shadow: 2px 2px 2px rgb(201, 187, 187) ;
+    box-shadow: 2px 2px 2px rgb(201, 187, 187);
 }
-.card-title {
+
+.profile-name {
+    padding-top: 5px;
+    font-size: 24px;
+    padding-bottom: 10px;
+    font-weight: normal;
+    margin-top: 1px;
 }
-.card-title-info {
+
+.profile-description {
+    font-size: 14px;
 }
-.card-btn {
+
+.profile-span {
+    display: block;
+}
+
+.profile-actions {
+    padding-top: 30px;
+    padding-bottom: 30px;
+
+}
+
+.profile-button {
+    background-color: #5dade2; 
+    color: white; 
+    border: none; 
+    border-radius: 5px; 
+    padding: 15px 40px;
+    font-size: 16px; 
+    font-weight: bold; 
+    cursor: pointer; 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Футер */
+
+.profile-footer {
+    width: 100%; 
+    background-color: rgb(75, 75, 158);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 0 0 10px 10px; 
+}
+
+.profile-footer-card {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.profile-footer-img {
+    width: 25px;
+    height: 25px;
+}
+
+
+.separator {
+    width: 1px;
+    height: 80px;
+    background-color: rgb(91, 91, 173);;
+}
+
+.profile-footer-text {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    color: rgb(100, 47, 47);
+}
+
+.profile-footer-info {
+    font-size: 14px;
+}
+
+.profile-footer-number {
+    font-size: 14px;
 }
