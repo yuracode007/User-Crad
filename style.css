@@ -25,15 +25,10 @@ body {
     font-size: 14px;
 }
 
-
-.profile-bookmark {
-    width: 10px;
-    height: 10px;
-}
-
 .profile-wraper-girl{
     padding-top: 10px;
 }
+
 .profile-image {
     width: 220px; 
     height: 220px;
@@ -64,7 +59,6 @@ body {
 .profile-actions {
     padding-top: 30px;
     padding-bottom: 30px;
-
 }
 
 .profile-button {
@@ -78,8 +72,6 @@ body {
     cursor: pointer; 
     box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.1);
 }
-
-/* Футер */
 
 .profile-footer {
     width: 100%; 
@@ -106,7 +98,6 @@ body {
     font-size: 24px;
 }
 
-
 .separator {
     width: 1px;
     height: 80px;
@@ -120,12 +111,10 @@ body {
     color: rgb(0, 0, 0);
 }
 
-
 .profile-footer-info {
     font-size: 14px;
     color: rgb(170, 101, 76);
 }
-
 
 .profile-footer-number {
     font-size: 14px;
