@@ -21,9 +21,10 @@ body {
 }
 
 .profile-location {
-    padding-top: 10px;
+    padding-top: 15px;
     font-size: 14px;
 }
+
 
 .profile-bookmark {
     width: 10px;
@@ -38,8 +39,10 @@ body {
     height: 220px;
     border-radius: 50%; 
     border: 2px solid gray;
-    padding: 3px;
-    box-shadow: 2px 2px 2px rgb(201, 187, 187);
+    padding: 5px;
+    box-shadow: 6px 6px 6px rgb(201, 187, 187);
+    object-fit: cover;
+    object-position: 0 5%;
 }
 
 .profile-name {
@@ -73,14 +76,14 @@ body {
     font-size: 16px; 
     font-weight: bold; 
     cursor: pointer; 
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 /* Футер */
 
 .profile-footer {
     width: 100%; 
-    background-color: rgb(75, 75, 158);
+    background-color: #2a3261 ;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -93,9 +96,14 @@ body {
     gap: 10px;
 }
 
-.profile-footer-img {
-    width: 25px;
-    height: 25px;
+.fa-brands{
+    color: rgb(170, 101, 76);
+    font-size: 24px;
+}
+
+.fa-regular{
+    color: rgb(170, 101, 76);
+    font-size: 24px;
 }
 
 
@@ -109,13 +117,19 @@ body {
     display: flex;
     flex-direction: column;
     text-align: left;
-    color: rgb(100, 47, 47);
+    color: rgb(0, 0, 0);
 }
+
 
 .profile-footer-info {
     font-size: 14px;
+    color: rgb(170, 101, 76);
 }
+
 
 .profile-footer-number {
     font-size: 14px;
+    text-align: center;
+    color: #fff;
+    padding-top: 5px;
 }
